@@ -57,7 +57,7 @@ namespace SteamDetour
                     if( !Directory.Exists( (string)value ) )
                         continue;
 
-                    overlayExe = Path.Combine( (string)value, "GameOverlayUI.exe" );
+                    overlayExe = Path.Combine( (string)value, "gameoverlayui64.exe" );
                     break;
                 }
             }
